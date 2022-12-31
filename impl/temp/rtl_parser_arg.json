@@ -1,0 +1,116 @@
+{
+ "Files" : [
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/ahb_communicate.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/btn_control.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/btn_sample_clk.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/cmos_8_16bit.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/ddr3_memory_interface/DDR3MI.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/dvi_tx/DVI_TX_Top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_rpll/TMDS_rPLL.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_rpll/cmos_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_rpll/mem_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_sdpb/gowin_sdpb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/i2c_master/i2c_config.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/i2c_master/i2c_master_bit_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/i2c_master/i2c_master_byte_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/i2c_master/i2c_master_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/lut_ov5640_rgb565_1024_768.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/max_sample.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_sample.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_serial.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/steer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/syn_gen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/video_frame_buffer/Video_Frame_Buffer_Top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/vitual_image.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/code/fpga/MIC_HDMI_FINISHED/src/xcorr.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "F:/code/fpga/MIC_HDMI_FINISHED/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

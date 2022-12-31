@@ -1,0 +1,12 @@
+-d F:\code\fpga\MIC_HDMI_FINISHED\impl\gwsynthesis\top.vg
+-p GW2A-18C-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst F:\code\fpga\MIC_HDMI_FINISHED\src\top.cst
+-cfg F:\code\fpga\MIC_HDMI_FINISHED\impl\pnr\device.cfg
+-sdc F:\code\fpga\MIC_HDMI_FINISHED\src\lcd.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-route_maxfan 23

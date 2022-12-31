@@ -1,0 +1,472 @@
+[
+ {
+  "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 237,
+    "InstName" : "Video_Frame_Buffer_Top_inst",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/video_frame_buffer/Video_Frame_Buffer_Top.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "Video_Frame_Buffer_Top"
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 300,
+    "InstName" : "DDR3_Memory_Interface_Top_inst",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/ddr3_memory_interface/DDR3MI.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "DDR3MI"
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 370,
+    "InstName" : "DVI_TX_Top_inst",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/dvi_tx/DVI_TX_Top.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "DVI_TX_Top"
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 178,
+    "InstName" : "cmos_pll_m0",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_rpll/cmos_pll.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "cmos_pll"
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 183,
+    "InstName" : "mem_pll_m0",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_rpll/mem_pll.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "mem_pll"
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 190,
+    "InstName" : "i2c_config_m0",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/i2c_master/i2c_config.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "i2c_config",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/i2c_master/i2c_config.v",
+      "InstLine" : 99,
+      "InstName" : "i2c_master_top_m0",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/i2c_master/i2c_master_top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "i2c_master_top",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/i2c_master/i2c_master_top.v",
+        "InstLine" : 225,
+        "InstName" : "byte_controller",
+        "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/i2c_master/i2c_master_byte_ctrl.v",
+        "ModuleLine" : 3,
+        "ModuleName" : "i2c_master_byte_ctrl",
+        "SubInsts" : [
+         {
+          "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/i2c_master/i2c_master_byte_ctrl.v",
+          "InstLine" : 84,
+          "InstName" : "bit_controller",
+          "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/i2c_master/i2c_master_bit_ctrl.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "i2c_master_bit_ctrl"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 205,
+    "InstName" : "lut_ov5640_rgb565_1024_768_m0",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/lut_ov5640_rgb565_1024_768.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "lut_ov5640_rgb565_1024_768"
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 210,
+    "InstName" : "cmos_8_16bit_m0",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/cmos_8_16bit.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "cmos_8_16bit"
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 222,
+    "InstName" : "syn_gen_inst",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/syn_gen.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "syn_gen"
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 351,
+    "InstName" : "u_tmds_rpll",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_rpll/TMDS_rPLL.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "TMDS_rPLL"
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 401,
+    "InstName" : "vitual_image_inst",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/vitual_image.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "vitual_image"
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 432,
+    "InstName" : "mic_serial_inst",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_serial.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "mic_serial",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_serial.v",
+      "InstLine" : 211,
+      "InstName" : "mic_sample_inst1",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_sample.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "mic_sample"
+     },
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_serial.v",
+      "InstLine" : 223,
+      "InstName" : "mic_sample_inst2",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_sample.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "mic_sample"
+     },
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_serial.v",
+      "InstLine" : 235,
+      "InstName" : "mic_sample_inst3",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_sample.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "mic_sample"
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 458,
+    "InstName" : "xcorr1",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/xcorr.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "xcorr",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/xcorr.v",
+      "InstLine" : 169,
+      "InstName" : "mic_data_store_inst1",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "mic_data_store",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+        "InstLine" : 69,
+        "InstName" : "Gowin_SDPB_inst2",
+        "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_sdpb/gowin_sdpb.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "Gowin_SDPB"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/xcorr.v",
+      "InstLine" : 180,
+      "InstName" : "mic_data_store_inst2",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "mic_data_store",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+        "InstLine" : 69,
+        "InstName" : "Gowin_SDPB_inst2",
+        "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_sdpb/gowin_sdpb.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "Gowin_SDPB"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 472,
+    "InstName" : "xcorr2",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/xcorr.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "xcorr",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/xcorr.v",
+      "InstLine" : 169,
+      "InstName" : "mic_data_store_inst1",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "mic_data_store",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+        "InstLine" : 69,
+        "InstName" : "Gowin_SDPB_inst2",
+        "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_sdpb/gowin_sdpb.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "Gowin_SDPB"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/xcorr.v",
+      "InstLine" : 180,
+      "InstName" : "mic_data_store_inst2",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "mic_data_store",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+        "InstLine" : 69,
+        "InstName" : "Gowin_SDPB_inst2",
+        "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_sdpb/gowin_sdpb.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "Gowin_SDPB"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 486,
+    "InstName" : "xcorr3",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/xcorr.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "xcorr",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/xcorr.v",
+      "InstLine" : 169,
+      "InstName" : "mic_data_store_inst1",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "mic_data_store",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+        "InstLine" : 69,
+        "InstName" : "Gowin_SDPB_inst2",
+        "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_sdpb/gowin_sdpb.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "Gowin_SDPB"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/xcorr.v",
+      "InstLine" : 180,
+      "InstName" : "mic_data_store_inst2",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "mic_data_store",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+        "InstLine" : 69,
+        "InstName" : "Gowin_SDPB_inst2",
+        "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_sdpb/gowin_sdpb.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "Gowin_SDPB"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 502,
+    "InstName" : "xcorr4",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/xcorr.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "xcorr",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/xcorr.v",
+      "InstLine" : 169,
+      "InstName" : "mic_data_store_inst1",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "mic_data_store",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+        "InstLine" : 69,
+        "InstName" : "Gowin_SDPB_inst2",
+        "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_sdpb/gowin_sdpb.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "Gowin_SDPB"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/xcorr.v",
+      "InstLine" : 180,
+      "InstName" : "mic_data_store_inst2",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "mic_data_store",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/mic_data_store.v",
+        "InstLine" : 69,
+        "InstName" : "Gowin_SDPB_inst2",
+        "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_sdpb/gowin_sdpb.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "Gowin_SDPB"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 516,
+    "InstName" : "steer_inst1",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/steer.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "steer"
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 522,
+    "InstName" : "steer_inst2",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/steer.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "steer"
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 533,
+    "InstName" : "Btn_Control_inst1",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/btn_control.v",
+    "ModuleLine" : 14,
+    "ModuleName" : "Btn_Control",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/btn_control.v",
+      "InstLine" : 28,
+      "InstName" : "Btn_Sample_Clk_inst",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/btn_sample_clk.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "Btn_Sample_Clk"
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 590,
+    "InstName" : "ahb_communicate_inst",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/ahb_communicate.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "ahb_communicate"
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 612,
+    "InstName" : "Gowin_PicoRV32_Top_inst",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+    "ModuleLine" : 27911,
+    "ModuleName" : "Gowin_PicoRV32_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 29955,
+      "InstName" : "core",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "picorv32"
+     },
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 30075,
+      "InstName" : "u_dm",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "s_debug_module"
+     },
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 30123,
+      "InstName" : "itcm",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "picosoc_itcm"
+     },
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 30134,
+      "InstName" : "dtcm",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "picosoc_dtcm"
+     },
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 30157,
+      "InstName" : "wb",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "wishbone_bus"
+     },
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 30217,
+      "InstName" : "wb_intercon",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "wisbhone_intercon"
+     },
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 30223,
+      "InstName" : "wbuart_ins",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "wbuart"
+     },
+     {
+      "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 30240,
+      "InstName" : "ahb_interface",
+      "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "ahb_bus"
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/top.v",
+    "InstLine" : 632,
+    "InstName" : "max_sample_inst",
+    "ModuleFile" : "F:/code/fpga/MIC_HDMI_FINISHED/src/max_sample.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "max_sample"
+   }
+  ]
+ }
+]

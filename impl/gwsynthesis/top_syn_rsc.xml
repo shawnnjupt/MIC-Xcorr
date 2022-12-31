@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="1818" Alu="208" Lut="2395" Bsram="16" Ssram="117">
+    <SubModule name="cmos_pll_m0"/>
+    <SubModule name="mem_pll_m0"/>
+    <SubModule name="i2c_config_m0" Register="13" Lut="38">
+        <SubModule name="i2c_master_top_m0" Register="17" Lut="690">
+            <SubModule name="byte_controller" Register="23" Lut="50">
+                <SubModule name="bit_controller" Register="71" Alu="15" Lut="90"/>
+            </SubModule>
+        </SubModule>
+    </SubModule>
+    <SubModule name="cmos_8_16bit_m0" Register="29" Lut="3"/>
+    <SubModule name="syn_gen_inst" Register="48" Alu="8" Lut="60"/>
+    <SubModule name="u_tmds_rpll"/>
+    <SubModule name="vitual_image_inst" Register="56" Alu="196" Lut="1224" Dsp="21"/>
+    <SubModule name="mic_serial_inst" Register="200" Alu="20" Lut="180" Ssram="18">
+        <SubModule name="mic_sample_inst1" Register="101" Alu="7" Lut="7"/>
+        <SubModule name="mic_sample_inst2" Register="50" Alu="7" Lut="3"/>
+        <SubModule name="mic_sample_inst3" Register="104" Alu="7" Lut="5"/>
+    </SubModule>
+    <SubModule name="xcorr1" Register="113" Alu="35" Lut="143" Dsp="1">
+        <SubModule name="mic_data_store_inst1" Register="12" Lut="18">
+            <SubModule name="Gowin_SDPB_inst2" Bsram="1"/>
+        </SubModule>
+        <SubModule name="mic_data_store_inst2" Register="11" Lut="17">
+            <SubModule name="Gowin_SDPB_inst2" Bsram="1"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="xcorr2" Register="110" Alu="35" Lut="137" Dsp="1">
+        <SubModule name="mic_data_store_inst1" Register="11" Lut="17">
+            <SubModule name="Gowin_SDPB_inst2" Bsram="1"/>
+        </SubModule>
+        <SubModule name="mic_data_store_inst2" Register="11" Lut="17">
+            <SubModule name="Gowin_SDPB_inst2" Bsram="1"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="xcorr3" Register="110" Alu="35" Lut="145" Dsp="1">
+        <SubModule name="mic_data_store_inst1" Register="11" Lut="17">
+            <SubModule name="Gowin_SDPB_inst2" Bsram="1"/>
+        </SubModule>
+        <SubModule name="mic_data_store_inst2" Register="11" Lut="17">
+            <SubModule name="Gowin_SDPB_inst2" Bsram="1"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="xcorr4" Register="110" Alu="35" Lut="142" Dsp="1">
+        <SubModule name="mic_data_store_inst1" Register="11" Lut="17">
+            <SubModule name="Gowin_SDPB_inst2" Bsram="1"/>
+        </SubModule>
+        <SubModule name="mic_data_store_inst2" Register="11" Lut="17">
+            <SubModule name="Gowin_SDPB_inst2" Bsram="1"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="steer_inst1" Register="41" Alu="18" Lut="101"/>
+    <SubModule name="steer_inst2" Register="37" Alu="18" Lut="108"/>
+    <SubModule name="Btn_Control_inst1" Register="2" Lut="1">
+        <SubModule name="Btn_Sample_Clk_inst" Register="20" Alu="19" Lut="7"/>
+    </SubModule>
+    <SubModule name="ahb_communicate_inst" Register="49" Lut="50"/>
+    <SubModule name="Gowin_PicoRV32_Top_inst" Register="3481" Alu="528" Lut="4974" Dsp="1" Bsram="8" Ssram="8"/>
+    <SubModule name="max_sample_inst" Register="33" Lut="50"/>
+</Module>
